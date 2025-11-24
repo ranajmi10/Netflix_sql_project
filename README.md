@@ -196,7 +196,7 @@ SELECT *
 FROM netflix
 WHERE casts ILIKE '%Salman Khan%'
 AND
-release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10
+release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
 *Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
